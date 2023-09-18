@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using RatHole_TrainingProgram.Data;
-using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
 using RatHole_TrainingProgram.Models;
 using Microsoft.EntityFrameworkCore;
-using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
+using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateDTOs.TrainingProgramTemplate;
+using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective;
 
 namespace RatHole_TrainingProgram.Services.TrainingPrograms.TrainingProgramTemplateObjectiveService
 {

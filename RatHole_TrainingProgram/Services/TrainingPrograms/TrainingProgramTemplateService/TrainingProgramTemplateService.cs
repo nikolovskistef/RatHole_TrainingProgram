@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using RatHole_TrainingProgram.Data;
-using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate;
+using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateDTOs.TrainingProgramTemplate;
 using RatHole_TrainingProgram.Models;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
 
 namespace RatHole_TrainingProgram.Services.TrainingPrograms.TrainingProgramTemplateService
 {

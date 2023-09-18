@@ -1,4 +1,4 @@
-﻿using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate;
+﻿using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateDTOs.TrainingProgramTemplate;
 using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective;
 using RatHole_TrainingProgram.Models;
 

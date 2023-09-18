@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RatHole_TrainingProgram.Models.TrainingPrograms
+namespace RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates
 {
     public class TrainingProgram_Template
     {
@@ -11,6 +11,6 @@ namespace RatHole_TrainingProgram.Models.TrainingPrograms
 
         public DateTime Date_Created { get; set; }
 
-        public  List<TrainingProgramTemplate_Objective>? Objectives { get; set; }
+        public List<TrainingProgramTemplate_Objective>? Objectives { get; set; }
     }
 }

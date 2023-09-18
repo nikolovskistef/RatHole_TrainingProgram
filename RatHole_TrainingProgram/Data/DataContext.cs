@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RatHole_TrainingProgram.Models.ExerciseDefinitions;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramAssignments;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
 using RatHole_TrainingProgram.Models.Utils;
 
 namespace RatHole_TrainingProgram.Data
@@ -48,6 +49,17 @@ namespace RatHole_TrainingProgram.Data
         public DbSet<TrainingProgram_Template> TrainingProgram_Templates { get; set; }
         public DbSet<TrainingProgramTemplate_Objective> TrainingProgramTemplate_Objectives { get; set; }
         public DbSet<TrainingProgramTemplate_Exercise> trainingProgramTemplate_Exercises { get; set; }
+
+        //Training Program Assignment
+        public DbSet<TrainingProgram_Template> TrainingProgram_Assignments { get; set; }
+        public DbSet<TrainingProgram_Workout> TrainingProgram_Workouts { get; set; }
+        public DbSet<TrainingProgram_Exercise> TrainingProgram_Exercises { get; set; }
+        public DbSet<TrainingProgramExercise_Properties> TrainingProgramExercise_Properties { get; set; }
+        public DbSet<TrainingProgramExerciseProperties_DropSet> TrainingProgramExerciseProperties_DropSets { get; set; }
+        public DbSet<TrainingProgramExerciseProperties_Isometric> TrainingProgramExerciseProperties_Isometrics { get; set; }
+        public DbSet<TrainingProgramExerciseProperties_Interval> TrainingProgramExerciseProperties_Intervals { get; set; }
+
+
         //Exercise Definition
         public DbSet<Exercise_Definition> Exercise_Definitions { get; set; }
         public DbSet<Category_Tag> Category_Tags { get; set; }
@@ -55,6 +67,8 @@ namespace RatHole_TrainingProgram.Data
         public DbSet<Muscle_Tag> Muscle_Tags { get; set; }
         public DbSet<Joint_Tag> Joint_Tags { get; set; }
         public DbSet<Tendon_Tag> Tendon_Tags { get; set; }
+
+
 
 
 

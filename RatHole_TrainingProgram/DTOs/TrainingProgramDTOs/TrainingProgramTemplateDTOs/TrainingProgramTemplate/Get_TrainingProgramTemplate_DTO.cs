@@ -1,7 +1,6 @@
 ﻿using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
 
-namespace RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate
+namespace RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateDTOs.TrainingProgramTemplate
 {
     public class Get_TrainingProgramTemplate_DTO
     {

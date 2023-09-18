@@ -4,7 +4,7 @@ using RatHole_TrainingProgram.Data;
 using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateExercise;
 using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective;
 using RatHole_TrainingProgram.Models;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
 
 namespace RatHole_TrainingProgram.Services.TrainingPrograms.TrainingProgramTemplateExerciseService
 {

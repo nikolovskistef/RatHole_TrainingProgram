@@ -1,5 +1,4 @@
-﻿using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
+﻿using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
 
 namespace RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective
 {

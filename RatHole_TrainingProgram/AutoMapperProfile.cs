@@ -5,11 +5,13 @@ using RatHole_TrainingProgram.DTOs.ExerciseDefinitionDTOs.JointTagDTOs;
 using RatHole_TrainingProgram.DTOs.ExerciseDefinitionDTOs.MuscleTagDTOs;
 using RatHole_TrainingProgram.DTOs.ExerciseDefinitionDTOs.SplitTagDTOs;
 using RatHole_TrainingProgram.DTOs.ExerciseDefinitionDTOs.TendonTagDTOs;
-using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate;
+using RatHole_TrainingProgram.DTOs.TrainingProgramAssignmentsDTOs.TrainingProgramExercisePropertiesDropSetDTOs;
+using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateDTOs.TrainingProgramTemplate;
 using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateExercise;
 using RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateObjective;
 using RatHole_TrainingProgram.Models.ExerciseDefinitions;
-using RatHole_TrainingProgram.Models.TrainingPrograms;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramAssignments;
+using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
 
 namespace RatHole_TrainingProgram
 {
@@ -42,8 +44,11 @@ namespace RatHole_TrainingProgram
             CreateMap<Tendon_Tag, Get_TendonTag_DTO>();
             CreateMap<Add_TendonTag_DTO, Tendon_Tag>();
 
-
-            //TRAINING PRGRAM TEMPLATE
+            //TRAINING PROGRAM ASSIGNMENT
+            //Training Program Exercise Parameters DropSet
+            CreateMap<TrainingProgramExerciseProperties_DropSet, Get_TrainingProgramExercisePropertiesDropSet_DTO >();
+            CreateMap<Add_TrainingProgramExercisePropertiesDropSet_DTO, TrainingProgramExerciseProperties_DropSet>();
+            //TRAINING PROGRAM TEMPLATE
             //Training Program Template
             CreateMap<TrainingProgram_Template, Get_TrainingProgramTemplate_DTO>();
             CreateMap<Add_TrainingProgramTemplate_DTO, TrainingProgram_Template>();

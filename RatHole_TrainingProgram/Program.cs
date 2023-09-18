@@ -6,6 +6,9 @@ using RatHole_TrainingProgram.Services.ExerciseDefinitions.JointTagService;
 using RatHole_TrainingProgram.Services.ExerciseDefinitions.MuscleTagService;
 using RatHole_TrainingProgram.Services.ExerciseDefinitions.SplitTagService;
 using RatHole_TrainingProgram.Services.ExerciseDefinitions.TendonTagService;
+using RatHole_TrainingProgram.Services.TrainingProgramAssignments.TrainingProgramExercisePropertiesDropSetService;
+using RatHole_TrainingProgram.Services.TrainingProgramAssignments.TrainingProgramExercisePropertiesIntervalService;
+using RatHole_TrainingProgram.Services.TrainingProgramAssignments.TrainingProgramExercisePropertiesIsometricService;
 using RatHole_TrainingProgram.Services.TrainingPrograms.TrainingProgramTemplateExerciseService;
 using RatHole_TrainingProgram.Services.TrainingPrograms.TrainingProgramTemplateObjectiveService;
 using RatHole_TrainingProgram.Services.TrainingPrograms.TrainingProgramTemplateService;
@@ -23,10 +26,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
-//Training Program
+//Training Program Template
 builder.Services.AddScoped<ITrainingProgramTemplateService, TrainingProgramTemplateService>();
 builder.Services.AddScoped<ITrainingProgramTemplateObjectiveService, TrainingProgramTemplateObjectiveService>();
 builder.Services.AddScoped<ITrainingProgramTemplateExerciseService, TrainingProgramTemplateExerciseService>();
+//Training Program Assignment
+builder.Services.AddScoped<ITrainingProgramExercisePropertiesDropSetService, TrainingProgramExercisePropertiesDropSetService>();
+//builder.Services.AddScoped<ITrainingProgramExercisePropertiesIntervalService, TrainingProgramExercisePropertiesIntervalService>();
+//builder.Services.AddScoped<ITrainingProgramExercisePropertiesIsometricService, TrainingProgramExercisePropertiesIsometricService>();
 //Exercise Definition
 builder.Services.AddScoped<IExerciseDefinitionService, ExerciseDefinitionService>();
 builder.Services.AddScoped<ICategoryTagService, CategoryTagService>();

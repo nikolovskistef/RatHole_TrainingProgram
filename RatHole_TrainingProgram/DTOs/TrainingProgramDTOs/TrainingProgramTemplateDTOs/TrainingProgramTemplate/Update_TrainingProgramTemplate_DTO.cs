@@ -1,4 +1,4 @@
-﻿namespace RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplate
+﻿namespace RatHole_TrainingProgram.DTOs.TrainingProgramDTOs.TrainingProgramTemplateDTOs.TrainingProgramTemplate
 {
     public class Update_TrainingProgramTemplate_DTO
     {

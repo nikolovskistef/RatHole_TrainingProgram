@@ -1,4 +1,4 @@
-﻿using RatHole_TrainingProgram.Models.TrainingPrograms;
+﻿using RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates;
 
 namespace RatHole_TrainingProgram.Models.ExerciseDefinitions
 {

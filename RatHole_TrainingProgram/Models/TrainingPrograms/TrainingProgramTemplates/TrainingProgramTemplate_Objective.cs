@@ -1,4 +1,4 @@
-﻿namespace RatHole_TrainingProgram.Models.TrainingPrograms
+﻿namespace RatHole_TrainingProgram.Models.TrainingPrograms.TrainingProgramTemplates
 {
     public class TrainingProgramTemplate_Objective
     {
